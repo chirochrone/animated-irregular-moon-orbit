@@ -1,7 +1,7 @@
-When running any of the .py files here, it generates two .csv files named "nereid_orbit.csv" and "triton_orbit.csv".
+When running any of the .py files here, it generates three .csv files named "nereid_orbit.csv", "triton_orbit.csv", and "moon_cache.csv".
 
-These are cache files which save the positions of Nereid and Triton for later use;
+These are cache files which save the positions of Nereid, Triton, and your chosen irregular moon for later use;
 these are intended to speed up the process of rendering the animation.
 
 That is to say, instead of querying JPL Horizons every time you run the script, the script instead uses those
-csv files to pre-load the orbits of Nereid and Triton, which saves a lot of time!
+csv files to pre-load the orbits of the moons, which saves a lot of time!
